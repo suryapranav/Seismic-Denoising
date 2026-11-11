@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Large data and model weights (regenerate with 01_extract_subset.py / 03_train.py)
+data/
+chunk2/
+checkpoints/
+*.hdf5
+*.npy
+*.pt

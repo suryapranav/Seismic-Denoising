@@ -1,0 +1,33 @@
+Device mps | supervised @ +0 dB | alpha 0.0 tau 0.7 | train 6,840 val 1,676 test 1,484 | data ready in 18s
+U-Net width 64: 5,821,250 parameters
+  epoch  1  train 0.00113  val 0.00053  *  (89s)
+  epoch  2  train 0.00051  val 0.00050  *  (151s)
+  epoch  3  train 0.00049  val 0.00049  *  (127s)
+  epoch  4  train 0.00048  val 0.00048  *  (137s)
+  epoch  5  train 0.00047  val 0.00048  *  (132s)
+  epoch  6  train 0.00047  val 0.00047  *  (122s)
+  epoch  7  train 0.00047  val 0.00047  *  (137s)
+  epoch  8  train 0.00046  val 0.00047  *  (139s)
+  epoch  9  train 0.00046  val 0.00047  *  (151s)
+  epoch 10  train 0.00046  val 0.00046  *  (120s)
+  epoch 11  train 0.00046  val 0.00046  *  (101s)
+  epoch 12  train 0.00046  val 0.00046  *  (101s)
+  epoch 13  train 0.00046  val 0.00046  *  (101s)
+  epoch 14  train 0.00045  val 0.00046  *  (101s)
+  epoch 15  train 0.00045  val 0.00046  *  (103s)
+  epoch 16  train 0.00045  val 0.00046  *  (103s)
+  epoch 17  train 0.00045  val 0.00046  *  (102s)
+  epoch 18  train 0.00045  val 0.00046  *  (101s)
+  epoch 19  train 0.00045  val 0.00046  *  (101s)
+  epoch 20  train 0.00045  val 0.00046  (108s)
+  epoch 21  train 0.00045  val 0.00046  *  (104s)
+  epoch 22  train 0.00045  val 0.00046  *  (102s)
+  epoch 23  train 0.00045  val 0.00046  (102s)
+  epoch 24  train 0.00045  val 0.00046  (104s)
+  epoch 25  train 0.00045  val 0.00046  (103s)
+  epoch 26  train 0.00045  val 0.00046  (101s)
+  epoch 27  train 0.00045  val 0.00046  (101s)
+  early stop: no val improvement for 5 epochs
+
+Test SNR (1,484 traces): input 0.00 | semiclean 3.26 (paper 3.87) | model 10.55 +/- 1.63 (paper 10.18) | gain +10.54 dB
+Logged to results/results.csv; checkpoint supervised_snr+0_a0_t0.7_w64.pt
